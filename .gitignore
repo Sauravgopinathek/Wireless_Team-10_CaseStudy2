@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# NS-3 build directories and caches
+build/
+cmake-cache/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+.ninja_*
+compile_commands.json
+.lock-ns3*
+.lock-waf*
+.waf*
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+
+# Simulation output and trace files (prevent large binary PCAP and data files)
+*.pcap
+*.pcapng
+*.tr
+*.dat
+*flowmon.xml
+*.mob
+
+# Preserve the small Mobile IP demonstration capture file
+!mobileip_demo.pcap
+
+# MATLAB / Octave
+*.asv
+*.m~
+slprj/
+
+# Microsoft Office temporary lock files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI agent and tooling directories
+.kilo/
+.kilocode/
